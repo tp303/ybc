@@ -1,0 +1,39 @@
+{
+  "name": "ybc",
+  "productName": "Yobot Chat",
+  "version": "0.0.1",
+  "description": "Facebook Messenger Bot",
+  "license": "Private",
+  "repository": "tp303/ybc",
+  "author": {
+    "name": "Tom Passam",
+    "email": "tom@stimulate.digital",
+    "url": "yobot.chat"
+  },
+  "maintainers": [
+    {
+      "name": "Julian James",
+      "email": "julian@newsugar.co.uk",
+      "url": "newsugar.co.uk"
+    }
+  ],
+  "scripts": {
+    "test": "xo",
+  },
+  "files": [
+    "index.js",
+    "webhooks/wh.js"
+  ],
+  "keywords": [
+    "facebook",
+    "messenger",
+    "chat",
+    "instant",
+    "messaging",
+    "yobot"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+}
