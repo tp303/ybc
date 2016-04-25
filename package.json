@@ -8,7 +8,7 @@
   "author": {
     "name": "Tom Passam",
     "email": "tom@stimulate.digital",
-    "url": "yobot.chat"
+    "url": "http://yobot.chat"
   },
   "maintainers": [
     {
@@ -18,8 +18,9 @@
     }
   ],
   "scripts": {
-    "test": "xo",
+    "start": "supervisor server.js"
   },
+  "main": "server.js"
   "files": [
     "index.js",
     "webhooks/wh.js"
